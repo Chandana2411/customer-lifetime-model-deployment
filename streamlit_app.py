@@ -9,7 +9,7 @@ import altair as alt
 from sklearn.cluster import KMeans
 import base64
 
-st.markdown(""" # Customer Lifetime Prediction App 👋
+st.markdown(""" # Customer Lifetime Prediction App 
 
 
 Upload the RFM data and get your customer lifetime prediction on the fly !!! :smile:
@@ -22,7 +22,7 @@ st.image("https://sarasanalytics.com/wp-content/uploads/2019/11/Customer-Lifetim
 
 data = st.file_uploader("File Uploader")
 
-st.sidebar.markdown(""" **Made with :heart: by Mukul Singhal** """)
+st.sidebar.markdown(""" **Made by group14 """)
 
 
 st.sidebar.title("Input Features :pencil:")
